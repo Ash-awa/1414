@@ -49,7 +49,7 @@ function displayCat() {
     // Set the source (file path) for the cat image
     catImage.src = 'cat.gif'; // Assuming the cat image is named "cat.gif"
     // Set alternative text for the image (for accessibility)
-    catImage.alt = 'Cat';
+    catImage.alt = 'cat';
     // When the cat image is fully loaded, add it to the image container
     catImage.onload = function() {
         imageContainer.appendChild(catImage);
