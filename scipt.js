@@ -7,7 +7,7 @@ function selectOption(option) {
         // Flash rainbow colors
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none'; // Hide the question
-            displayCat(); // Display the cat.gif
+            displaycat(); // Display the cat.gif
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
@@ -77,4 +77,4 @@ function displayCat() {
 }
 
 // Display the cat.gif initially
-displayCat();
+displaycat();
