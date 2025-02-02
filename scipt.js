@@ -49,7 +49,7 @@ function displayCat() {
     // Set the source (file path) for the cat image
     catImage.src = 'cat.gif'; // Assuming the cat image is named "cat.gif"
     // Set alternative text for the image (for accessibility)
-    catImage.alt = 'Cat';
+    catImage.alt = 'cat';
     // When the cat image is fully loaded, add it to the image container
     catImage.onload = function() {
         imageContainer.appendChild(catImage);
@@ -65,7 +65,7 @@ function displayCat() {
     // Create a new Image element for the cat
     var catHeartImage = new Image();
     // Set the source (file path) for the cat image
-    catHeartImage.src = 'cat.gif'; // Assuming the cat image is named "cat.gif"
+    catHeartImage.src = 'cat gif.gif'; // Assuming the cat image is named "cat.gif"
     // Set alternative text for the image (for accessibility)
     catHeartImage.alt = 'cat';
     // When the cat image is fully loaded, add it to the image container
