@@ -41,7 +41,7 @@ function flashRainbowColors(callback) {
 }
 
 // Function to display the cat.gif initially
-function displayCat() {
+function displaycat() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat
@@ -57,7 +57,7 @@ function displayCat() {
 }
 
 // Function to display the cat.gif
-function displayCat() {
+function displaycat() {
     // Clear existing content in the image container
     document.getElementById('image-container').innerHTML = '';
     // Get the container where the image will be displayed
