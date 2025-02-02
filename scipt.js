@@ -70,7 +70,7 @@ function displaycat() {
     catImage.alt = 'cat';
     // When the cat image is fully loaded, add it to the image container
     catImage.onload = function() {
-        imageContainer.appendChild(catHeartImage);
+        imageContainer.appendChild(catImage);
         // Hide the options container
         document.getElementById('options').style.display = 'none';
     };
