@@ -68,7 +68,7 @@ function displayCat() {
     catHeartImage.src = 'cat.gif'; // Assuming the cat image is named "cat.gif"
     // Set alternative text for the image (for accessibility)
     catHeartImage.alt = 'cat';
-    // When the cat-heart image is fully loaded, add it to the image container
+    // When the cat image is fully loaded, add it to the image container
     catHeartImage.onload = function() {
         imageContainer.appendChild(catHeartImage);
         // Hide the options container
